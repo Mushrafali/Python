@@ -20,6 +20,12 @@ print(age2)
 
 # datatypes
 
-print(type(name))
-print(type(age))
-print(type(price))
+print(type(name))  #String
+print(type(age))    #Integer
+print(type(price))    #Float
+
+a = False
+b = None
+
+print(type(a))    #Boolean
+print(type(b))   #None
