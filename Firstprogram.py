@@ -4,37 +4,29 @@ print(23)
 print(12+89)
 
 # variables
-
 name = "mushrafali"
 age = 23
 price = 99.9
-
 print(price)
 print(age)
 print("My name is", name)
 
 age2 = age
-
 print(age2)
 
-
 # datatypes
-
 print(type(name))   #String
 print(type(age))    #Integer
 print(type(price))    #Float
 
 a = False
 b = None
-
 print(type(a))   #Boolean
 print(type(b))   #None
 
 # arithmetic operators
-
 a = 1000
 b = 54
-
 sum = a + b
 diff = a - b
 print(sum)
@@ -45,7 +37,6 @@ print(a % b) #reminder
 print(a ** b) #a^b
 
 # relational / comparison operators
-
 print(a == b)  #False
 print(a != b)  #True
 print(a >= b)  #True
@@ -54,7 +45,6 @@ print(a <= b)  #False
 print(a < b)  #False
 
 # assignment operators
-
 num = 20
 num += 10 #num = num + 10 = 30
 num -= 10 #num = num - 10 = 20
@@ -104,8 +94,20 @@ print(type(a))
 name = input("Enter your name :")
 print("WELCOME ", name)
 
+val = input("enter some value :")
+print(type(val), val) # "20" "name" "2.33" the type will be string
+
+val = int(input("enter some value :"))
+print(type(val), val) # value will be an integer
 
 
+#for example
+name = input("enter your name :")
+age  = int(input("entre your age :"))
+marks = float(input("enter your marks :"))
+print("WELCOME", name)
+print("age =", age)
+print("marks =", marks)
 
 
 
