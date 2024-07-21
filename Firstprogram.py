@@ -110,18 +110,6 @@ print("age =", age)
 print("marks =", marks)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # single line comments
 """
 multiple 
