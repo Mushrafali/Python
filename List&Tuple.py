@@ -74,3 +74,13 @@ print(type(tup))
 tup = (1,)
 print(tup)  # in single value tuple "," must be added else it will count in integer
 print(type(tup))
+
+tup = (1, 2, 3, 4, 2)
+print(tup[1:3])
+#Tuple Methods
+# tup = (2, 1, 3, 1)
+# tup.index( el )  #returns index of first occurrence  tup.index(1) is 1
+# tup.count( el )  #counts total occurrences  tup.count(1) is 2
+
+print(tup.index(2))  #returns 1 bc 2 is on 1st index
+print(tup.count(2))  #counts 2 in the tuple
